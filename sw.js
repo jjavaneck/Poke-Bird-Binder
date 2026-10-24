@@ -1,6 +1,6 @@
 // Offline shell: the app page, manifest and icons are cached so the app opens without a connection.
-// Card images, prices links and the scan library still load from the internet.
-const CACHE = "bird-binder-202610192126";
+// Card images, price links and the scan library still load from the internet.
+const CACHE = "bird-binder-202610241435";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png", "icons/icon.svg"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => {

@@ -1,7 +1,7 @@
 {
   "name": "Bird Card Binder",
   "short_name": "Bird Binder",
-  "description": "Every English and Japanese Pokémon TCG artwork of the bird Pokémon, with prices and your collection.",
+  "description": "Every English and Japanese Pokémon TCG artwork of the bird Pokémon, with cameos, prices and your collection.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
